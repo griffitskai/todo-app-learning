@@ -56,3 +56,4 @@ form.addEventListener("submit", (event) => {
 });
 
 renderTasks();
+
