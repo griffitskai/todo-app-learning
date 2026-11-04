@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista zadań</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Moja lista zadań</h1>
+
+      <form id="todo-form" class="todo-form">
+        <input
+          id="todo-input"
+          type="text"
+          placeholder="Dodaj nowe zadanie..."
+          autocomplete="off"
+        />
+        <button type="submit">Dodaj</button>
+      </form>
+
+      <ul id="todo-list" class="todo-list"></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
