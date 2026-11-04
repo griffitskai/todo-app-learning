@@ -1,2 +1,9 @@
-# todo-app-learning
-Testujemy możliwości oraz uczymy sie korzystać z GITHUB
+# Lista zadań
+
+Moja pierwsza aplikacja do zarządzania zadaniami — tworzona podczas nauki GitHuba.
+
+## Plan
+
+- [ ] Dodawanie zadania
+- [ ] Oznaczanie zadania jako wykonanego
+- [ ] Usuwanie zadania
