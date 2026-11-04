@@ -20,6 +20,20 @@
         <button type="submit">Dodaj</button>
       </form>
 
+      <p id="task-counts" class="task-counts"></p>
+
+      <div class="filters" aria-label="Filtruj zadania">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">
+          Wszystkie
+        </button>
+        <button class="filter-btn" data-filter="active" aria-pressed="false">
+          Do zrobienia
+        </button>
+        <button class="filter-btn" data-filter="done" aria-pressed="false">
+          Wykonane
+        </button>
+      </div>
+
       <ul id="todo-list" class="todo-list"></ul>
     </main>
 
